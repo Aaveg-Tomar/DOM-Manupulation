@@ -1,0 +1,105 @@
+.navbar
+{
+    
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    margin: -8px;
+    margin-bottom: 20px;
+    
+}
+
+.navbar button{
+    height: 80%;
+    
+    margin-top: 22px;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+#h{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.albums{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(154, 159, 161, 0.813);
+    width: 90%;
+    margin-left: 48px;
+    border-radius: 20px;
+    margin-top: 75px;
+    
+}
+
+.album{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: black;
+    padding: 14px;
+    border-radius: 10px;
+
+}
+
+.album .thumbnail img{
+    width: 100%;
+   
+}
+
+.details{
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.album .details .details-footer{
+
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+}
+
+img.round{
+    border-radius: 20px;
+}
+
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+#addAlbumButton{
+    display: flex;
+    margin-left: 52%;
+    margin-top: 15px;
+
+}
+
+#imageURL{
+    padding-right:35px ;
+
+}
+
+#discription{
+    padding-right: 50px;
+
+}
+
+#time{
+     padding-right: 35px;
+}
